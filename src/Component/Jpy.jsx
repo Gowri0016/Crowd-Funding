@@ -61,6 +61,8 @@ const Crowdfunding = () => {
             <li key={c.id}>Contributor {c.id}: ¥{c.amount}</li>
           ))}
         </ul>
+
+
       </motion.div>
 
       <motion.section className="text-center text-white mt-16 max-w-3xl mx-auto" initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
